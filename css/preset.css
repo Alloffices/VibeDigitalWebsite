@@ -1,0 +1,393 @@
+/*
+  Theme Name: Synergy - Creative HTML5 Responsive Template
+  Theme URL: http://nasfactor.com/themes/synergy/
+  Author: nasirwd
+  Author URI: http://nasfactor.com/
+  Description: Synergy - Creative HTML5 Responsive Template
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Fonts
+2. Normalization
+2. Overlay
+3. Margin and padding setup
+4. Image
+5. Common Section Setting
+6. Page Title Section
+7. Page Title Section 02
+==========================================================================*/
+
+/*=======================================================================
+// Fonts
+=========================================================================*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.playfair{
+    font-family: Playfair Display;
+}
+
+/*=======================================================================
+// Normalization
+=========================================================================*/
+htm,body{
+    font-family: 'Poppins', sans-serif;
+    color: #999;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+} 
+body{
+    background: url(../images/bg/bglines.png) repeat center center;
+    padding: 0 0px 0 90px;
+}
+p{
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 36px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    margin: 0 0 15px;
+    font-family:  Playfair Display;
+}
+a{
+    color: #222222;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+a:hover{
+    text-decoration: none;
+    color: #f23030;
+}
+a:focus{
+    outline: 0;
+    text-decoration: none;
+}
+button{
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+.sy_btn{
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 600;
+    background: #000000;
+    padding: 14px 43px 20px 53px;
+    display: inline-block;
+    line-height: .8;
+    height: 50px;
+    border-radius: 25px;
+}
+.sy_btn i{
+    color: #f23030;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    margin-left: 25px;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+.sy_btn:hover{
+    background: #f23030;
+    color: #FFF;
+}
+.sy_btn:hover i{
+    color: #FFF;
+}
+.sy_btn.white:hover {
+    background: #fff;
+    color: #333;
+}
+.sy_btn.white:hover i {
+    color: #333;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    border: none;
+
+}
+.noRadius{
+    border-radius: 0;
+}
+blockquote {
+    border-left: 2px solid #f23030;
+    margin: 60px 0 50px;
+    padding: 0 65px 0 20px;
+}
+blockquote p{
+    font-size: 22px;
+    color: #000000;   
+}
+
+/*=======================================================================
+//  Overlay
+=========================================================================*/
+.overlayB80,
+.overlayB60,
+.overlayR70,
+.overlayB90,
+.overlayR10{
+    position: relative
+}
+.overlayB80:before{
+    background: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+}
+.overlayB60:before{
+    background: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+}
+.overlayR70:before{
+    background: rgba(242, 48, 48, .8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+}
+.overlayB90:before{
+    background: rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+}
+.overlayR10:before{
+    background: rgba(240, 48, 48, .9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+}
+
+/*=======================================================================
+//  Margin and padding setup
+=========================================================================*/
+.noPadding{
+    padding: 0px !important;
+}
+.noPaddingBottom{
+    padding-bottom: 0px !important;
+}
+.noPaddingLeft{
+    padding-left: 0px !important;
+}
+.noPaddingRight{
+    padding-right: 0px !important;
+}
+.noMarginBottom{
+    margin-bottom: 0px !important;
+}
+.noMarginRight{
+    margin-right: 0px !important;
+}
+.noPaddingTop{
+    padding-top: 0px !important;
+}
+
+/*=======================================================================
+//  Image
+=========================================================================*/
+.imgDiv{
+    width: 100%;
+    position: relative;
+}
+.imgDiv img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*=======================================================================
+//  Common Section Setting
+=========================================================================*/
+.comonTitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif; 
+}
+.comonTitle.marb60{
+    margin-bottom: 40px;
+}
+.comonTitle.whites{
+    color: #FFF;
+}
+.bigTitle{
+    font-family: Playfair Display;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 0 auto 50px;
+    letter-spacing: 0;
+}
+.bigTitle.whites{
+    color: #FFF;
+}
+.bigTitle i{
+    font-style: italic;
+}
+.bigTitle span{
+    color: #f23434;
+}
+.bg_Alabaster {
+    background: #fbfbfb;
+}
+.mb100{
+    margin-bottom: 95px;
+}
+
+/*=======================================================================
+//  Page Title Section
+=========================================================================*/
+.pageTitleSection{
+    position: relative;
+    background: #000;
+    height: 800px;
+}
+.pageTitleSection:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+    content: "";
+}
+.pageTitleSection .container, 
+.pageTitleSection .container-fluid{
+    position: relative;
+    z-index: 2;
+}
+.pTSContent{
+    position: absolute;
+    left: 0;
+    padding: 0 50px;
+    right: 0;
+    top: 50%;
+    z-index: 3;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.pTSContent h5{
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 8px;
+    line-height: .8;
+    margin: 0 0 22px;
+    font-size: 20px;
+}
+.pTSContent h5 > a{
+    color: #fff;
+}
+.pTSContent h5 > a:hover{
+    color: #f23030;
+}
+.pTSContent h2{
+    font-size: 80px;
+    line-height: 90px;
+    color: #FFF;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.bar::after {
+    background: #f23030;
+    bottom: -97px;
+    content: "";
+    height: 200px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 2px;
+    top: auto;
+}
+
+
+/*=======================================================================
+//  Page Title Section 02
+=========================================================================*/
+.page_title_bar_2{
+    position: relative;
+    padding: 131px 0 100px;
+    border-top: 1px solid #f3f3f3;
+}
+.page_title_2{
+    position: relative;
+    margin: 0;
+}
+.page_title_2 h4{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 0.8;
+    margin: 0 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+.page_title_2 h1{
+    color: #000000;
+    font-family: Playfair Display;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 90px;
+    margin: 0;
+    position: relative;
+}

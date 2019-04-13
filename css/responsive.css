@@ -1,0 +1,2467 @@
+/*
+  Theme Name: Synergy - Creative HTML5 Responsive Template
+  Theme URL: http://nasfactor.com/themes/synergy/
+  Author: nasirwd
+  Author URI: http://nasfactor.com/
+  Description: Synergy - Creative HTML5 Responsive Template
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+[01] Dasktop [1200px - 1440px]
+[02] Mobile 320px - 767px
+[03] Tab 768px - 990px
+[04] Mobile Menu 320px - 980px
+[05] Tab 991px - 1024px
+[06] Dasktop 981px - 1280px
+==========================================================================*/
+
+/*=======================================================================
+// Dasktop 1200px - 1400px
+=========================================================================*/
+@media(min-width:1200px) and (max-width:1440px){
+    /**======================== 01. Home one ========================**/
+    .rotate_text{
+        left: -215px;
+    }
+    .serviceArea {
+        margin: -415px 60px 0;
+    }
+    .serviceHead {
+        font-size: 41px;
+        left: 75px;
+        top: 200px;
+        width: 60%;
+    }
+    .discoverRes{
+        padding-left: 100px;
+    }
+    .serviceDesc {
+        bottom: 104px;
+        font-size: 29px;
+        line-height: 40px;
+        padding-left: 70px;
+        padding-right: 100px;
+    }
+    .serviceDesc::before {
+        left: -154px;
+    }
+    .officeAddress{
+        padding-right: 20px;
+    }
+    .menu_open .navWrap{
+        width: 470px;
+        padding: 20px 0;
+    }
+    .navLogo {
+        margin-bottom: 30px;
+    }
+    .about_desc h2 {
+        font-size: 36px;
+        line-height: 50px;
+        margin: -12px 0 30px;
+    }
+    /**======================== 02. Services page ========================**/
+    .workContent{
+        margin-left: 200px;
+    }
+    .page_title02 h1{
+        font-size: 60px;
+    }
+
+    /**======================== 03. Work page ========================**/
+    .filterNav ul li{
+        font-size: 30px;
+    }
+    .work_all_details {
+        height: 386px;
+    }
+    .footer_Nave li{
+        padding-right: 30px;
+    }
+    .teamtext{
+        padding-left: 130px;
+        padding-right: 50px;
+    }
+    .teamtext h2{
+        font-size: 40px;
+    }
+    .singleWork{
+        margin-bottom: -13px;
+    }
+    .workD_Top {
+        margin-bottom: 40px;
+        padding-top: 111px;
+    }
+    .work_details {
+        padding-left: 70px;
+    }
+    .work_all_details:hover .workD_Top {
+        padding-top: 0;
+    }
+    .workD_Top h1 a {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .workD_bott{
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .lineSpan{
+        top: 0;
+    }
+    .work_all_details:hover .workD_Top {
+        padding-top: 54px;
+    }
+
+    /**======================== 04. Team Page ========================**/
+    .twitterfeed {
+        height: 233.5px;
+        padding: 17px 0;
+        position: relative;
+    }
+    .teamSection .teamtext{
+        margin-top: 0;
+    }
+    .teamSection .teamtext h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .lineBorder {
+        left: 0;
+        top: 26px;
+        width: 100px;
+    }
+    .singleTwitter {
+        margin-left: 30px;
+        padding-right: 30px;
+    }
+    .singleInst img{
+        min-height: 233px;
+    }
+    .singleTwitter p {
+        font-size: 18px;
+        line-height: 33px;
+    }
+    .singleInst.big img{
+        min-height: 466px;
+    }
+
+    /**======================== 05. Journal Page ========================**/
+    .j_contentW{
+        padding-right: 0;
+    }
+    .page_title_bar05 {
+        padding-bottom: 211px;
+        padding-top: 249px;
+    }
+    .journalImg{
+        overflow: hidden;
+    }
+    .journalImg img {
+        height: 100%;
+        width: auto;
+    }
+    .journal_content{
+        padding-right: 15px;
+    }
+    .journal_content p{
+        font-size: 17px;
+    }
+
+    /**======================== 06. About Page ========================**/
+    .pageTitleSection,
+    .approachSlider{
+        height: 600px;
+    }
+    .pTSContent h2 {
+        font-size: 60px;
+    }
+    .rotate_text_03 {
+        right: -180px;
+        top: 143px;
+    }
+    #testmonialcaro {
+        padding-top: 205px;
+    }
+    .commitment_text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .fun_count p{
+        margin: 0 0 30px;
+    }
+    .fun_count h1{
+        font-size: 60px;
+    }
+    .fun_count{
+        margin-left: 40px;
+    }
+    .count_fourth ,
+    .count_second,
+    .count_third{
+        margin-left: 20px;
+    }
+    .commitment_text::after{
+        left: -210px;
+    }
+    .about2content {
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    .ab2Img {
+        padding-left: 20px;
+    }
+    .about2content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    .singleFun {
+        padding: 169px 0 157px;
+    }
+    .footer_Nave li a{
+        font-size: 18px;
+    }
+    .officeAddress {
+        padding-right: 0;
+    }
+
+    /**======================== 02. Home2 Page ========================**/
+    .mainNav2 ul li{
+        margin-left: 35px
+    }
+    .mainNav2 ul li a{
+        font-size: 14px;
+        letter-spacing: 2.2px
+    }
+    .singlelWorkDec{
+        width: 90%;
+    }
+    .mainNav2 ul li{
+        margin-left: 35px
+    }
+    .mainNav2 ul li a{
+        font-size: 14px;
+        letter-spacing: 2.2px
+    }
+    .singlelWorkDec{
+        width: 90%;
+    }
+    .lworkTitlle{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .metalW {
+        color: #000;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .metalW a {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2.6px;
+    }
+
+    /**======================== 08. Shop page ========================**/
+    .shopSectionRow{
+        padding: 0 20px;
+    }
+    .single_product {
+        margin: 0 0 80px;
+        min-height: 535px;
+        padding: 20px 20px 0;
+    }
+    .productTitle{
+        font-size: 21px;
+    }
+    .shopSectionRoin{
+        padding: 0;
+    }
+    .product_decp {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .proTitle {
+        font-size: 25px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    .comSelectdiv {
+        margin-bottom: 20px;
+    }
+    .chooseContent {
+        padding: 57px 57px 25px 80px
+    }
+    .chooseContent h5{
+        margin: 0 0 71px;
+    }
+    .chooseContent h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .chooseContent p{
+        padding-right: 0;
+    }
+    .singlechooseImg img {
+        height: auto;
+        width: auto;
+    }
+    .singlechoose::before {
+        top: 100px;
+    }
+    #choooseusSlide.owl-theme .owl-dots{
+        left: 76px;
+    }
+
+
+}
+
+/*=======================================================================
+// Dasktop 981px - 1280px
+=========================================================================*/
+@media(min-width:980px) and (max-width:1280px){
+    .serviceHead{
+        top:130px !important;
+    }
+    .serviceDesc{
+        bottom: 170px !important;
+    }
+    .workMeta{
+        width: 100%;
+    }
+    .workDetailsSections .container{
+        width: auto;
+    }
+    .product_btn a{
+        font-size: 12px;
+    }
+    .col-cs-4, .col-cs-2 {
+        width: 50%;
+    }
+    .twitterfeed{
+        height: 100%;
+    }
+}
+
+
+/*=======================================================================
+// Dasktop 1200px - 1400px
+=========================================================================*/
+@media(min-width:991px) and (max-width:1024px){
+    .sliderCaption h1 {
+        font-size: 65px;
+    }
+    .headerInnerWrap{
+        padding-right: 30px;
+    }
+    .sliderSection{
+        height: 800px !important;
+    }
+    .discoverRes {
+        overflow: hidden;
+    }
+    .discoverRes img{
+        width: auto;
+        height: 100%;
+        max-width: inherit;
+    }
+    .serviceArea {
+        margin: -90px 50px 0;
+        position: relative;
+    }
+    .serviceDesc{
+        padding: 0;
+    }
+    .about_desc h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .about_desc p{
+        padding-right: 0;
+    }
+    .sy_btn{
+        letter-spacing: 1px;
+    }
+    .serviceHead {
+        font-size: 30px;
+        left: 60px;
+        line-height: 40px;
+        top: 130px;
+        width: 70%;
+        padding-left: 110px;
+    }
+    .serviceDesc {
+        bottom: 90px;
+        font-size: 25px;
+        line-height: 30px;
+        padding-right: 80px;
+        right: 0;
+        width: 60%;
+    }
+    .serviceDesc::before {
+        left: -120px;
+        top: 12px;
+        width: 100px;
+    }
+    .rotate_text_02{
+        top: 180px;
+    }
+    .folio_hover h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .singleFolio:hover .folio_hover h1,
+    .singleFolio:hover .folio_hover p.catsa{
+        transform: translate3d(70px, 0px, 0px);
+    }
+    .testimonialSlider{
+        padding-left: 30px;
+    }
+    .testimonialSlider.owl-theme .owl-dots{
+        left: 50px;
+    }
+    .aboutFooter img {
+        margin-bottom: 0;
+        position: absolute;
+        left: 0;
+    }
+    .footer_Nave li a{
+        font-size: 18px;
+    }
+    .footer_Nave li{
+        padding-right: 25px;
+    }
+    .officeAddress{
+        padding-right: 0;
+    }
+    .footerSocial{
+        padding-right: 30px;
+    }
+    .aboutFooter{
+        padding-left: 80px;
+    }
+    .container{
+        width: 840px;
+    }
+    .index2 .container{
+        width: 970px;
+    }
+    .testimonialItems{
+        padding-right: 0;
+    }
+}
+
+/*=======================================================================
+// Dasktop 991px - 1280px
+=========================================================================*/
+@media(min-width:991px) and (max-width:1280px){
+    body.index2{
+        padding: 0;
+    }
+    .headerTop2,
+    .header2{
+        padding: 0 30px;
+    }
+    .pTSContent{
+        overflow: hidden;
+    }
+
+
+}
+@media(min-width:800px) and (max-width:1280px){
+    .twitterfeed{
+        padding: 110px 0 64px;
+    }
+
+
+}
+
+/*=======================================================================
+// Tab 991px - 1024px
+=========================================================================*/
+@media(min-width:991px) and (max-width:1024px){
+    .product_Details{
+        margin-right: 0;
+    }
+    .product_decp{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body.index2{
+        padding: 0;
+    }
+    .mainNav2 ul li{
+        margin-left: 25px;
+    }
+    .mainNav2 ul li:first-of-type{
+        margin-left: 0;
+    }
+    .mainNav2 ul li a{
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    .header2 .noPadding{
+        padding-left: 15px !important;
+    }
+    .header2 .noPaddingRight{
+        padding-right: 15px !important;
+    }
+    .headerTop2 .noPaddingRight{
+        padding-right: 15px !important;
+    }
+    .approachTitle2{
+        padding: 0;
+    }
+    .latestpostImg{
+        padding-right: 0;
+        overflow: hidden;
+    }
+    .latestpostImg img{
+        width: auto;
+    }
+    .latestpostDet{
+        padding-top: 15px;
+        margin-left: 0;
+        padding-right: 30px;
+    }
+    .logo2 {
+        width: 100%;
+    }
+    .mainNav2 ul li ul.sub-menu{
+        width: 200px;
+    }
+    .mainNav2 ul li ul.sub-menu li a{
+        letter-spacing: 0;
+    }
+    .ser_details p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .mainNav2 ul li a{
+        padding-bottom: 0;
+    }
+    .mainNav2 ul li:hover ul.sub-menu, 
+    .mainNav2 ul ul.sub-menu,
+    .mainNav2 ul li ul.sub-menu{
+        top: 90px;
+    }
+    .approachTitle {
+        padding: 175px 0 0;
+    }
+    .rotate_text_03{
+        right: -200px;
+        top: -76px;
+    }
+    .approachSlider{
+        height: 600px;
+    }
+    #testmonialcaro {
+        padding-top: 200px;
+    }
+    .commitment_text {
+        padding-left: 150px;
+        padding-right: 0;
+        right: 0;
+    }
+    .commitment_text::after{
+        width: 100px;
+        left: 0;
+    }
+    .approachSlider{
+        overflow: hidden;
+    }
+    .count_second,
+    .count_third,
+    .count_fourth{
+        margin-left: 0;
+    }
+    .fun_count {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .count_third,
+    .count_fourth{
+        margin-bottom: 0;
+    }
+    .sinlge_author{
+        padding: 0;
+    }
+    .single_Awards a{
+        width: 100%;
+    }
+    .Awards_title {
+        margin-bottom: 80px;
+    }
+    .about2content {
+        padding-left: 70px;
+        padding-top: 0;
+    }
+    .singleFun{
+        padding: 100px 0;
+    }
+    .singleFun.top{
+        margin-top: 0;
+    }
+    .filterNav ul li{
+        font-size: 18px;
+    }
+    .workD_Top{
+        padding-top: 135px;
+        margin-bottom: 0;
+    }
+    .work_details{
+        padding-left: 30px;
+    }
+    .work_img{
+        overflow: hidden;
+    }
+    .work_img img {
+        height: auto;
+        width: auto;
+    }
+    .workD_Top h4{
+        letter-spacing: 2px;
+    }
+    .workD_Top h1 a{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .work_all_details:hover .workD_Top {
+        padding-top: 70px;
+    }
+    .lineSpan{
+        top: -45px;
+    }
+    .calltoActionheading p{
+        padding:0 100px;
+    }
+    .pLHover h2{
+        font-size: 32px;
+    }
+    .addmorePost{
+        margin-top: 0;
+    }
+    .journalImg {
+        margin-right: 0;
+        overflow: hidden;
+    }
+    .journalImg img{
+        width: auto;
+        height: 100%
+    }
+    .product_btn a{
+        font-size: 12px;
+    }
+    .shopSectionRow{
+        padding: 0;
+    }
+    .single_product{
+        margin: 0 20px 80px;
+    }
+    .contactForm{
+        padding-right: 0;
+    }
+    .contactImage img{
+        width: 100%;
+        height: auto;
+    }
+    .singleAddress{
+        margin-bottom: 80px;
+    }
+    .singleAddress p{
+        margin-bottom: 20px;
+    }
+    .contactInfo{
+        padding-left: 0;
+    }
+    .contactInfo::after{
+        left: 0;
+    }
+    .chooseContent{
+        width: 100%;
+    }
+    .singlechooseImg{
+        width: 100%;
+        position: relative;
+    }
+    .headerInnerWrap{
+        padding-right: 0;
+    }
+    .wMSingle {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 29px 10px 17px;
+        text-align: center;
+    }
+    .journal_content{
+        padding-right: 0 ;
+    }
+    .col-cs-2,
+    .col-cs-4{
+        width: 50%;
+    }
+    .twitterfeed {
+        padding: 40px 0 39px;
+    }
+    .singleInst.big img{
+        min-height: 100%;
+    }
+
+}
+
+/*=======================================================================
+// Tab 768px - 990px
+=========================================================================*/
+@media(min-width:768px) and (max-width:990px){
+
+    /**========================= 01. home1 Page ========================**/
+    body{
+        padding: 0;
+    }
+    .headerInnerWrap h5 {
+        font-size: 12px;
+        letter-spacing: 1.8px;
+        padding-left: 16px;
+    }
+    .sliderCaption h1 {
+        line-height: 80px;
+    }
+    .headerInnerWrap{
+        padding-right: 30px;
+    }
+    .sliderSection{
+        height: 800px !important;
+    }
+    .discoverRes {
+        overflow: hidden;
+    }
+    .discoverRes img{
+        width: auto;
+        height: 100%;
+        max-width: inherit;
+    }
+    .serviceArea {
+        margin: -90px 50px 0;
+        position: relative;
+    }
+    .serviceDesc{
+        padding: 0;
+    }
+    .about_desc{
+        padding-left: 0;
+    }
+    .about_desc h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .about_desc p{
+        padding-right: 0;
+    }
+    .sy_btn{
+        letter-spacing: 1px;
+    }
+    .serviceHead {
+        font-size: 30px;
+        left: 60px;
+        line-height: 40px;
+        top: 90px;
+        width: 60%;
+    }
+    .serviceDesc {
+        bottom: 95px;
+        font-size: 25px;
+        line-height: 30px;
+        padding-right: 80px;
+        right: 0;
+        width: 60%;
+    }
+    .serviceDesc::before {
+        left: -120px;
+        top: 12px;
+        width: 100px;
+    }
+    .rotate_text_02{
+        top: 180px;
+    }
+    .folio_hover h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .singleFolio:hover .folio_hover h1,
+    .singleFolio:hover .folio_hover p.catsa{
+        transform: translate3d(70px, 0px, 0px);
+    }
+    .testimonialSlider{
+        padding-left: 30px;
+    }
+    .testimonialSlider.owl-theme .owl-dots{
+        left: 50px;
+    }
+    .aboutFooter img {
+        margin-bottom: 0;
+        position: absolute;
+        left: 0;
+    }
+    .footer_Nave li a{
+        font-size: 18px;
+    }
+    .footer_Nave li{
+        padding-right: 25px;
+    }
+    .officeAddress{
+        padding-right: 0;
+    }
+    .footerSocial{
+        padding-right: 30px;
+    }
+    .aboutFooter{
+        padding-left: 80px;
+    }
+    .testimonialItems{
+        padding-right: 40px;
+    }
+
+    /**========================= 02. home2 Page ========================**/
+    .headerTop2{
+        padding: 0 15px;
+    }
+    .mainNav2 .mobile_menu{
+        top: 15px;
+    }
+    .mainNav2 ul{
+        top: 60px;
+    }
+    .approachTitle2{
+        padding: 0;
+    }
+    .singleServices{
+        padding: 36px 10px 48px; 
+    }
+    .ser_details p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .ser_details p:last-of-type{
+        margin-bottom: 15px;
+    }
+    .singleServices h3{
+        margin-bottom: 30px;
+    }
+    .latestpostImg{
+        overflow: hidden;
+    }
+    .latestpostImg img{
+        width: auto;
+    }
+    .latestpostDet{
+        margin-left: 0;
+        padding-top: 13px;
+    }
+
+    /**========================= 03. About1 Page ========================**/
+    .approachTitle{
+        padding: 175px 0 0;
+    }
+    .rotate_text_03{
+        right: -198px;
+        top: 0;
+    }
+    .approachSlider{
+        height: 500px;
+    }
+    #testmonialcaro {
+        padding-top: 165px;
+    }
+    .commitment_text {
+        padding-left: 150px;
+        padding-right: 0;
+        position: relative;
+        right: 0;
+    }
+    .commitment_text::after {
+        background: #f23030;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 148px;
+        width: 120px;
+    }
+    .count_second,
+    .count_third,
+    .count_fourth{
+        margin-left: 0;
+    }
+    .fun_count {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .count_third,
+    .count_fourth{
+        margin-bottom: 0;
+    }
+    .sinlge_author{
+        padding: 0;
+    }
+    .author_info p{
+        letter-spacing: 3.2px;
+    }
+    .approachSlider{
+        overflow: hidden;
+    }
+    .pageTitleSection{
+        height: 60vh;
+    }
+
+    /**========================= 03. About2 Page ========================**/
+    .about2content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0;
+    }
+    .ab2Img {
+        padding-left: 0;
+    }
+    .singleFun.top{
+        margin-top: 0;
+    }
+
+    /**========================= 04. Services Page ========================**/
+    .serv_title{
+        padding-bottom: 140px;
+    }
+    .bigTitle br{
+        display: none;
+    }
+    .iconBox02.noMarginBottom{
+        margin-bottom: 100px !important;
+    }
+    .singlePartner{
+        width: 100%;
+    }
+    .calltoActionheading p{
+        padding: 0;
+    }
+    .workContent::before{
+        left: 0;
+    }
+    .howWeWork{
+        overflow: hidden;
+    }
+    .pTSContent{
+        overflow: hidden;
+    }
+
+    /**========================= 05. Services2 Page ========================**/
+    .chooseContent{
+        width: 100%;
+        padding: 90px 50px 0;
+    }
+    .singlechooseImg {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    .singleprocess {
+        margin: 0 0 132px;
+    }
+    .singleprocess img{
+        margin-bottom: 40px;
+    }
+    .singleprocess p{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .partstyle2 .singlePartner{
+        margin-bottom:30px;
+        height: auto;
+    }
+    .singleprocess{
+        margin: 0 0 80px;
+    }
+
+    /**========================= 06. Work ========================**/
+    .filterNav ul li{
+        font-size: 18px;
+    }
+    .workD_Top{
+        padding-top: 135px;
+        margin-bottom: 0;
+    }
+    .work_details{
+        padding-left: 30px;
+    }
+    .work_img{
+        overflow: hidden;
+    }
+    .work_img img {
+        height: auto;
+        width: auto;
+    }
+    .workD_Top h4{
+        letter-spacing: 2px;
+    }
+    .workD_Top h1 a{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .work_all_details:hover .workD_Top {
+        padding-top: 70px;
+    }
+    .lineSpan{
+        top: -45px;
+    }
+    .pLHover h2{
+        font-size: 25px;
+    }
+    .addmorePost{
+        margin-top: 0;
+    }
+    .wMSingle {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 29px 10px 17px;
+        position: relative;
+        text-align: center;
+    }
+
+    /**========================= 07. journal single ========================**/
+    .pTSContent h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .journal_content{
+        padding-right: 0;
+    }
+    .journal_content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .journalImg {
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+    .journalImgRela{
+        margin-right: 0;
+    }
+    .exrelatedPro{
+        margin-bottom: 120px;
+    }
+
+    /**========================= 08. Shop ========================**/
+    .shopSectionRow{
+        padding: 0 15px;
+    }
+    .single_product{
+        margin: 0 20px 80px;
+    }
+    .product_btn a{
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .product_btn a:last-of-type{
+        margin-right: 0;
+    }
+    .productTitle{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mobileshoH {
+        padding: 30px;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        z-index: 1;
+    }
+    .breadCmenu{
+        top: 0;
+        padding-left: 20px;
+    }
+    .product_decp{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .comSelectdiv.selectColor {
+        padding-left: 0;
+    }
+    .cart_table tbody tr td.product-thumbnail{
+        padding-left: 0;
+    }
+    .cart_table tbody tr td.product-remove{
+        padding-right: 0;
+    }
+    .cart_table tbody tr td.product-thumbnail img{
+        margin-right: 5px;
+    }
+    .cart_table tbody tr td.product-subtotal{
+        letter-spacing: 2px;
+        padding-right: 10px;
+    }
+    .cart_table tbody tr td.product-price span.amount{
+        letter-spacing: 2px;
+    }
+    .cart_table tbody tr td.actions .input-text{
+        width: 190px;
+    }
+    .cart_table tbody tr td.actions .coupon_submit{
+        padding: 14px 30px;
+    }
+    .contactForm{
+        padding-right: 0;
+    }
+    .contactImage img{
+        width: 100%;
+        height: auto;
+    }
+    .singleAddress{
+        margin-bottom: 80px;
+    }
+    .singleAddress p{
+        margin-bottom: 20px;
+    }
+    .contactInfo{
+        padding-left: 0;
+    }
+    .contactInfo::after{
+        left: 0;
+    }
+    .woocommerce-checkout-review-order {
+        padding: 47px 5px 20px;
+    }
+    .breadcrumbSection{
+        padding-top: 130px;
+    }
+    .product_Details{
+        margin-right: 0;
+    }
+    .teamtext{
+        padding-right: 0;
+        margin-bottom: 100px;
+        padding-left: 150px;
+    }
+    .lineBorder {
+        left: 30px;
+        width: 100px;
+    }
+    .comonTitle.comonTitle2 {
+        margin-bottom: 80px;
+    }
+    .col-cs-4,
+    .col-cs-2{
+        width: 50%;
+    }
+    .singleInst img{
+        height: auto;
+    }
+    .singleTwitter {
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .twitterfeed {
+        height: 100%;
+        padding: 54px 0 64px;
+    }
+    .singleInst.big img {
+        min-height: auto;
+    }
+    .bigTitle{
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+}
+@media(min-width:980px) and (max-width:1000px){
+    .twitterfeed {
+        height: 100%;
+        padding: 132px 20px;
+    }
+}
+@media(min-width:770px) and (max-width:800px){
+    .col-cs-4, .col-cs-2 {
+        width: 50%;
+    }
+    .twitterfeed {
+        height: 100%;
+        padding: 67px 20px;
+    }
+}
+@media(min-width:1270px) and (max-width:1281px){
+    .twitterfeed {
+        height: 100%;
+        padding: 192px 20px;
+    }
+}
+/*=======================================================================
+// Mobile Menu 320px - 980px
+=========================================================================*/
+@media(min-width:320px) and (max-width: 990px){
+    /**======= 04.a => Home1 =======**/
+    body{
+        padding: 0;
+    }
+    .mobileLogosc {
+        position: relative;
+        left: 20px;
+        top: 20px;
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+    .fixedHeader .mobileLogosc{
+        position: absolute;
+        top: -100px;
+    }
+    .fixedHeader #menu_toggle span{
+        background: #222;
+    }
+    #menu_toggle span{
+        background: #fff;
+    }
+    .headerTopSection .headerInnerWrap {
+        padding: 0;
+        text-align: center;
+    }
+    .headerTopSection .headerInnerWrap h5 {
+        display: none;
+    }
+    .headerTopSection .noPaddingRight{
+        padding-right: 15px !important;
+    }
+    .mobile_header{
+        position: relative;
+        background: #fafafa;
+        padding: 10px 0;
+    }
+    .mobile_menu {
+        cursor: pointer;
+        height: 18px;
+        line-height: 0.03;
+        margin: auto;
+        position: absolute;
+        right: 15px;
+        top: -37px;
+        width: 25px;
+    }
+    .mobile_menu span{
+        width: 100%;
+        height: 2px;
+        background: #333;
+        display: inline-block;
+    }
+    .mobile_menu span:nth-of-type(01){
+        transform: rotate(0deg);
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .mobile_menu span:nth-of-type(02){
+        transform: scale(1); 
+        opacity: 1;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .mobile_menu span:nth-of-type(03){
+        transform: rotate(0deg);
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .mobile_menu.active span:nth-of-type(1) {
+        position: absolute;
+        right: 0;
+        transform: rotate(-45deg);
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        background: #f23030;
+    }
+    .mobile_menu.active span:nth-of-type(02){
+        transform: scale(0);
+        opacity: 0;
+        background: #f23030;
+    }
+    .mobile_menu.active span:nth-of-type(3){
+        position: absolute;
+        right: 0;
+        transform: rotate(45deg);
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        background: #f23030;
+    }
+    .mobile_header ul {
+        background: #fff;
+        display: none;
+        left: 0;
+        list-style: outside none none;
+        margin: 0;
+        padding: 15px 0;
+        position: absolute;
+        text-align: center;
+        top: 11px;
+        width: 100%;
+        z-index: 99;
+        left: 0;
+    }
+    .mobNav ul li{
+        position: relative;
+    }
+    .mobNav ul ul.sub-menu {
+        padding: 0;
+        position: relative;
+        top: 0;
+    }
+    .mobNav ul ul.sub-menu li {
+        line-height: 1.4;
+    }
+    .mobNav ul ul.sub-menu li a {
+        font-style: italic;
+        font-size: 15px;
+        color: red;
+    }
+    .sliderCaption h3 {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        top: -30px;
+    }
+
+    /**======= 04.b => Home2 =======**/
+    .mainNav2 ul {
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        height: 260px;
+        overflow: auto;
+    }
+    .header2{
+        padding: 10px 0;
+    }
+    .logo2{
+        padding-left: 15px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .mainNav2 ul li {
+        display: block;
+        margin-left: 0;
+        position: relative;
+    }
+    .mainNav2 ul li a {
+        padding-bottom: 0;
+        line-height: 1.5;
+        letter-spacing: 0;
+        margin-bottom: 12px;
+        padding-top: 0;
+    }
+    .mainNav2 ul li ul.sub-menu {
+        background: #f23030;
+        left: 0;
+        margin-left: 0;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        transition: none;
+        visibility: visible;
+        width: 100%;
+        z-index: 2;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .mainNav2 ul li:hover ul.sub-menu{
+        top: 0;
+    }
+    .mainNav2 ul li ul.sub-menu li {
+        border-top: 1px solid #d92b2b;
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+    .mainNav2 ul li ul.sub-menu li a{
+        margin-bottom: 0;
+    }
+    .mainNav2 ul li ul.sub-menu::before{
+        left: 0;
+        right: 0;
+    }
+    #menu_toggle{
+        left: -80px;
+    }
+
+
+    /**================== Mobile Menu =======================**/
+    .headerTopSection{
+        display: none;
+    }
+    .navWrap,
+    .header_01{
+        width: 8px;
+    }
+    .navLogo{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .menu_toggler{
+        bottom: auto;
+        left: 35px;
+        border: none;
+        background: transparent;
+    }
+    .menu_open .navWrap{
+        width: 260px;
+    }
+    .mainNav {
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        padding-right: 8px;
+    }
+    .menu_open .mainNav{
+        visibility: visible;
+        opacity: 1;
+    }
+    .socialDiv {
+        height: 50px;
+        padding: 1px 0;
+        line-height: 50px;
+        overflow: hidden;
+    }
+    .mainNav ul li{
+        margin-bottom: 0;
+    }
+    .mainNav ul li a{
+        font-size: 25px;
+    }
+    .mainNav ul ul.sub-menu{
+        padding-left: 0;
+        padding-bottom: 10px;
+        padding-top: 0;
+    }
+    .mCSB_inside > .mCSB_container{
+        margin: 0;
+    }
+    .mainNav ul ul.sub-menu li::before{
+        top: 13px;
+        left: 24%;
+    }
+    .mainNav ul ul.sub-menu li a{
+        font-size: 14px;
+    }
+    .mainNav ul ul.sub-menu li {
+        line-height: 25px;
+    }
+    .work_details a.vDetail{
+        color: #f23030;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        overflow: hidden;
+        position: relative;
+        text-transform: uppercase;
+        width: 145px;
+        transform: translate3d(0, -216px, 0);
+        -webkit-transform: translate3d(0, -216px, 0);
+        -moz-transform: translate3d(0, -216px, 0);
+        -ms-transform: translate3d(0, -216px, 0);
+        -o-transform: translate3d(0, -216px, 0);
+    }
+    .workD_Top{
+        padding-top: 143px;
+    }
+    .shoppage .fixedHeader #menu_toggle span,
+    .shoppage #menu_toggle span{
+        background: #000;
+    }
+
+
+}
+
+/*=======================================================================
+// Mobile 320px - 767px
+=========================================================================*/
+@media(min-width:320px) and (max-width:767px){
+
+    /**======================== 01. Home1 Page ========================**/
+    .sliderCaption h1 {
+        font-size: 40px;
+        letter-spacing: 0;
+        line-height: 38px;
+    }
+    .tp-bullets {
+        bottom: 40px !important;
+        height: 60px;
+        left: auto !important;
+        margin: 0 !important;
+        opacity: 1 !important;
+        position: absolute;
+        right: 30px;
+        width: 11px;
+        z-index: 2;
+        top: auto;
+    }
+    .serviceArea{
+        margin: 0;
+    }
+    .serviceDesc {
+        bottom: 45px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 22px;
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        right: 0;
+        width: 77%;
+        padding-right: 20px;
+    }
+    .about_desc {
+        margin-top: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .about_desc h2 {
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 0;
+        line-height: 40px;
+        margin: 0 0 35px;
+    }
+    .about_desc p{
+        padding-right: 0;
+    }
+    .sy_btn {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .wc-proceed-to-checkout .sy_btn {
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 44px;
+        padding: 0 25px;
+    }
+    .serviceDesc::before{
+        display: none;
+    }
+    .serviceHead {
+        color: #fff;
+        font-size: 14px;
+        left: 0;
+        line-height: 22px;
+        position: absolute;
+        top: 45px;
+        width: 67%;
+        z-index: 2;
+        padding-left: 16px;
+    }
+    .res_xsClass {
+        position: relative;
+        top: 80px;
+    }
+    .rotate_text_02{
+        display: none;
+    }
+    .aboutSection{
+        padding-bottom: 50px;
+    }
+    .bigTitle {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 auto 30px;
+    }
+    .what_we_do .bigTitle {
+        margin-bottom: 80px;
+    }
+    .iconBox p{
+        padding: 0;
+    }
+    .iconBox{
+        margin-bottom: 100px;
+    }
+    .iconBox h3{
+        margin: 0 0 40px;
+    }
+    .iconBox_xsClass{
+        margin-bottom: 0;
+    }
+    .folio_hover h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .singleFolio:hover .folio_hover h1 {
+        transform: translate3d(90px, 0px, 0px);
+    }
+    .singleFolio:hover .folio_hover p.catsa {
+        transform: translate3d(60px, 0px, 0px);
+    }
+    .mtop234 {
+        margin-top: 0;
+    }
+    .folio_hover p.catsa{
+        letter-spacing: 2px;
+    }
+    .mtop136 {
+        margin-top: 100px;
+    }
+    #client_slider.owl-carousel .owl-item img{
+        width: 100% !important;
+    }
+    #client_slider .singleClient {
+        width: 85%;
+        margin: auto;
+    }
+    .client_section {
+        padding-bottom: 45px;
+        padding-top: 91px;
+    }
+    .testimonialSlider{
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    .testimonialItems{
+        padding: 0;
+    }
+    .testimonialItems p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .testiMeta{
+        padding-left: 50px;
+    }
+    .testiMeta h3{
+        margin-bottom: 10px;
+    }
+    .testiMeta::after{
+        top: 40px;
+    }
+    .testimonialSlider.owl-theme .owl-dots {
+        bottom: -80px;
+        height: 30px;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        text-align: center;
+        top: auto;
+        width: 100%;
+    }
+    .testimonialSlider.owl-theme .owl-dots .owl-dot span{
+        margin: 0;
+    }
+    .testimonialSlider.owl-theme .owl-dots .owl-dot.active span{
+        position: relative;
+        top: 2px;
+    }
+    .testimonialSlider.owl-theme .owl-dots .owl-dot{
+        margin: 10px;
+    }
+    .testimonial_section{
+        padding: 74px 0 147px;
+    }
+    .aboutFooter p{
+        padding-right: 0;
+    }
+    .footer_Nave li {
+        display: block;
+        line-height: 0.8;
+        list-style: outside none none;
+        padding-right: 0;
+        margin-bottom: 16px;
+    }
+    .footerSocial a{
+        margin-right: 5px;
+    }
+    .aboutFooter{
+        text-align: center;
+    }
+    .footer_Nave {
+        margin: 45px 0 50px;
+        text-align: center;
+        padding-right: 15px;
+    }
+    .footerSocial {
+        padding-right: 15px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #footer {
+        padding-bottom: 75px;
+        padding-top: 100px;
+    }
+    .officeAddress {
+        padding-right: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .callUs {
+        text-align: center;
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    /**======================== 02. Home2 ========================**/
+    .headerTop2{
+        display: none;
+    }
+    .approachTitle2{
+        padding: 0;
+    }
+    .approachTitle2 h3,
+    .comonTitle{
+        line-height: 25px;
+    }
+    .approachTitle2 > h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .singlelWorkDec{
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+    .singlelWorkDec{
+        transform: translate3d(0, 0, 0);
+    }
+    .lworkTitlle{
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+        opacity: 1;
+    }
+    .singlelWorkDec,
+    .lworkTitlle::before,
+    .singlelWork .metalW,
+    .lworkTitlle{
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+        opacity: 1;
+    }
+    .lworkTitlle::before{
+        width: 100px;
+    }
+    .latestpostImg{
+        padding-right: 0;
+    }
+    .latestpostDet{
+        margin-left: 0;
+        padding: 15px;
+    }
+    .metalp a{
+        letter-spacing: 0;
+    }
+    .latestBT{
+        font-size: 25px;
+    }
+
+    /**======================== 02. About ========================**/
+    .pageTitleSection{
+        height: 80vh;
+    }
+    .pTSContent{
+        padding: 0;
+    }
+    .pTSContent h5{
+        line-height: normal;
+        letter-spacing: 2px;
+    }
+    .pTSContent h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .approachTitle{
+        padding: 175px 0;
+    }
+    .bar::after {
+        bottom: -75px;
+        height: 150px;
+    }
+    .rotate_text_03{
+        top: -12px;
+        right: -125px;
+        letter-spacing: 0;
+    }
+    .approachTitle > h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .ourApproachSection{
+        padding-bottom: 0;
+    }
+    .approachTitle{
+        padding: 140px 0;
+    }
+    .approachSlider{
+        height: auto;
+    }
+    #testmonialcaro {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .commitment_text {
+        padding-right: 0;
+        position: relative;
+        right: 0;
+        text-align: center;
+    }
+    .fun_count {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .count_second,
+    .count_third,
+    .count_fourth{
+        margin-left: 0;
+    }
+    .funcact_title h3{
+        letter-spacing: 2px;
+    }
+    .funcact_title h3{
+        margin: 0 0 50px;
+    }
+    .team_title h4{
+        letter-spacing: 2px;
+    }
+    .team_title h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .sinlge_author{
+        padding: 0;
+        margin-bottom: 60px;
+    }
+    .sinlge_author.lastXs{
+        margin-bottom: 0;
+    }
+    .Awards_title{
+        margin-bottom: 20px;
+    }
+    .Awards{
+        padding-bottom: 0;
+    }
+    .approachSlider{
+        overflow: hidden;
+    }
+
+    /**======================== 04. About2 ========================**/
+    .about2content {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-top: 0;
+    }
+    .about2content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .ab2Img{
+        padding-left: 0;
+    }
+    .singleFun{
+        padding: 75px 0;
+    }
+    .singleFun.top{
+        margin-top: 0;
+    }
+
+    /**======================== 05. Services ========================**/
+    .serv_title > h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .serv_title > h1 br{
+        display: none;
+    }
+    .serv_title a.sy_btn i {
+        margin-left: 20px;
+    }
+    .serv_title a.sy_btn {
+        padding: 14px 40px 20px;
+    }
+    .serv_title{
+        padding-bottom: 100px
+    }
+    .workContent{
+        width: 100%;
+        padding: 62px 10px 60px;
+        height: auto;
+        text-align: center;
+    }
+    .workContent::before{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .workContent h2{
+        width: 100%;
+        position: static;
+    }
+    .workContent h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .iconBox02 h3{
+        margin-bottom: 30px;
+    }
+    .iconBox02{
+        margin-bottom: 60px;
+    }
+    .iconBox02.noMarginBottom{
+        margin-bottom: 60px !important;
+    }
+    .whoWe_workedFor .comonTitle{
+        margin-bottom: 50px;
+    }
+    .comonTitle{
+        letter-spacing: 2px;
+    }
+    .singlePartner{
+        margin-bottom: 0;
+    }
+    .calltoActionheading p{
+        padding: 0;
+    }
+    .calltoActionheading a.sy_btn i {
+        margin-left: 20px;
+    }
+    .calltoActionheading a.sy_btn {
+        padding: 14px 30px 20px;
+    }
+
+    /**======================== 06. Services2 ========================**/
+    .serBoxH{
+        padding-left: 0;
+    }
+    .serBox{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .serBoxH img{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .singlechooseImg{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    .chooseContent {
+        padding: 40px 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .chooseContent h5{
+        letter-spacing: 2px;
+    }
+    .chooseContent h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .chooseContent p:last-of-type,
+    .chooseContent p{
+        padding: 0;
+        margin: 0;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .singlechoose::before{
+        top: 90px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .chooseContent h5{
+        margin: 0 0 70px;
+    }
+    .serv2title {
+        margin-bottom: 55px;
+    }
+    .singleprocess {
+        margin: 0 0 100px;
+    }
+    .partstyle2 .singlePartner{
+        margin-bottom: 0;
+    }
+    .singleprocess.lastxs{
+        margin-bottom: 0;
+    }
+    .ourworkSec{
+        padding-bottom: 100px;
+    }
+    /**======================== 07. Work ========================**/
+    .filterNav {
+        margin-bottom: 33px;
+    }
+    .filterNav ul li{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .filterNav ul li::before{
+        display: none;
+    }
+    .work_details{
+        padding-left: 0;
+    }
+    .workD_Top{
+        padding-top: 50px;
+    }
+    .work_all_details{
+        padding: 0 15px !important; 
+    }
+    .workD_Top h1 a{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .workD_Top h4{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .work_all_details:hover .workD_Top{
+        padding-top: 40px;
+    }
+    .workD_bott{
+        margin-bottom: 0;
+    }
+    .projectLinks.marLeft10,
+    .projectLinks.marRight10{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pLHover h2{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    /**======================== 08. journal ========================**/
+    .j_contentW{
+        padding-right: 0;
+    }
+    .singleJournal{
+        margin-bottom:-45px;
+    }
+
+    /**======================== 09.journal single ========================**/
+    .pTSContent h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .singleJournal_meta{
+        line-height: normal;
+    }
+    .journal_wrap{
+        padding: 0 15px;
+    }
+    .journal_content {
+        padding-right: 0;
+        position: relative;
+        top: 0;
+    }
+    .journal_contentWrap,
+    .blogDescriptionTop .journal_content{
+        text-align: center;
+    }
+    .journal_content h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .journalImg,
+    .journalImgRela{
+        margin-right: 0;
+    }
+    .journalImg{
+        margin-bottom: 20px;
+    }
+    blockquote{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .socialShare{
+        top: 0;
+        text-align: left;
+    }
+    .singleCom,
+    .commentList ol li ul.ChildCom{
+        padding-left: 0;
+    }
+    .singleCom img{
+        position: relative;
+    }
+    .relatedTitle,
+    .commentTitle{
+        letter-spacing: 0;
+    }
+
+    /**======================== 10.Shop ========================**/
+    .shopSectionRow{
+        padding: 0;
+    }
+    .paddingLeft22 {
+        padding-left: 15px;
+    }
+    .product_btn a{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .lavel{
+        right: 5px;
+    }
+    .shopBanner{
+        min-height: 400px;
+    }
+    .mobileshoH {
+        padding: 30px 15px 30px 0;
+        text-align: right;
+    }
+    .shopSection{
+        overflow: hidden;
+    }
+    .productTitle{
+        font-size: 20px;
+    }
+    .breadCmenu span,
+    .breadCmenu a{
+        line-height: .8;
+    }
+    .breadCmenu a::after{
+        top: 5px;
+    }
+    .product_Details{
+        margin-right: 0;
+    }
+    #porDetails .carousel-indicators{
+        position: relative;
+        left: 10px;
+        bottom: 0;
+    }
+    #porDetails .carousel-indicators li, 
+    #porDetails .carousel-indicators li.active{
+        width: 75px;
+    }
+    .product_decp{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .comSelectdiv.selectColor{
+        padding-left: 0;
+    }
+    .infoNavTab{
+        padding: 10px;
+        height: 60px;
+    }
+    .infoNavTab li a{
+        font-size: 11px;
+    }
+    .infoNavTab li{
+        margin-right: 5px;
+    }
+    .infoNavTab li:last-of-type{
+        margin-right: 0;
+    }
+    .adinfo {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .adinfo ul li{
+        padding-left: 125px;
+        line-height: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .shopRelatedSection,
+    .productDetailsSection,
+    .breadcrumbSection
+    {
+        overflow: hidden;
+    }
+    .shopRelatedSection .comonTitle {
+        margin-bottom: 0;
+    }
+    .loginss{
+        font-size: 11px;
+    }
+    .woocommerce-checkout-review-order {
+        padding: 47px 5px 20px;
+    }
+    .woocommerce-checkout-payment ul li label img {
+        height: auto;
+        margin-left: 5px;
+        position: absolute;
+        top: -4px;
+        width: 154px;
+    }
+    .cart_table tbody tr td.product-thumbnail{
+        padding-left: 0;
+    }
+    .comSelectdiv .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+    .quantityd {
+        left: 0;
+        top: 0;
+        width: 200px;
+    }
+    .shop_table.shop_table_responsive.cart.cart_table .comSelectdiv .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn), .quantityd {
+        left: 28px;
+        top: 34px;
+        width: 80px;
+    }
+    .productQnt .comSelectdiv .quantityd{
+        left: 0;
+        width: 200px;
+        top: 0;
+    }
+    .actions .sy_btn.button.update_cart{
+        width: 100%
+    }
+    .shop_table.shop_table_responsive.cart.cart_table .quantityd input[type="text"]{
+        width: 100%;
+    }
+    .breadCmenu{
+        padding-left: 20px;
+    }
+    .selectTitle{
+        margin-bottom: 5px;
+    }
+    .cart_table tbody tr td.product-quantity {
+        left: -30px;
+        position: relative;
+        top: -34px;
+    }
+    .product-price{
+        display: none;
+    }
+    #menu_toggle{
+        left: -80px;
+    }
+    .cart_table thead tr th.product-subtotal {
+        padding-left: 35px;
+    }
+    .cart_table tbody tr td.product-subtotal {
+        padding-left: 0;
+        text-align: right;
+    }
+    .itemtitle{
+        display: none !important;
+    }
+    .quantityd input[type="text"]{
+        padding: 0 18px;
+    }
+    .shop_table.cart.cart_table .cart_item{
+        position: relative;
+    }
+    .cart_table tbody tr td.product-remove {
+        left: 0;
+        padding-right: 0;
+        position: absolute;
+        text-align: left;
+    }
+    .cart_table tbody tr td.actions .input-text {
+        width: 100%;
+        border-radius: 30px;
+        padding-right: 140px;
+    }
+    .cart_table tbody tr td.actions .coupon_submit {
+        letter-spacing: 0;
+        padding: 14px 13px;
+        position: absolute;
+        right: 0;
+    }
+    .cart_table thead tr th:first-child {
+        padding-left: 6px;
+    }
+    .cart_table tbody tr td.actions .coupon{
+        margin-bottom: 10px;
+    }
+    .cart_table tbody tr td.actions .pull-right{
+        float: left !important;
+    }
+    .cart_totals table tr th {
+        font-size: 13px;
+        padding-left: 0;
+        width: 95px;
+    }
+    #shipping_method li label{
+        font-size: 14px;
+    }
+    .bestellingSec .single_product {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    .cart_table tbody tr td.product-subtotal{
+        letter-spacing: 0;
+    }
+    .bestellingSec{
+        overflow: hidden;
+    }
+    .cart_table tbody tr td.product-thumbnail img{
+        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    .single_product{
+        padding: 26px 15px 14px;
+    }
+
+
+
+    /**======================== 11. Conatct ========================**/
+    .page_title_2 h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .contactHeader h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contactForm{
+        padding-right: 0;
+        margin-bottom: 80px;
+    }
+    .contactInfo{
+        padding-left: 0;
+    }
+    .singleAddress p{
+        margin-bottom:10px;
+    }
+    .singleAddress{
+        margin-bottom: 60px;
+    }
+    .contactImage img{
+        width: 100%;
+        height: auto;
+    }
+    .contacInfoSection{
+        padding-bottom: 0;
+    }
+    .wMSingle {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        position: relative;
+        text-align: center;
+    }
+
+    /**======================== 12. Team ========================**/
+    .teamtext{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .teamtext h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .lineBorder{
+        top: -40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .teamFixedImg{
+        margin-bottom: 30px;
+    }
+    .teamSection {
+        padding: 120px 0 50px;
+    }
+    .col-cs-2,
+    .col-cs-4{
+        width: 100%;
+    }
+    .singleTwitter {
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+    }
+    .instSection {
+        padding-bottom: 0;
+    }
+    .singleInst.big img {
+        height: auto;
+        min-height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+/*=======================================================================
+// Mobile 361px - 640px
+=========================================================================*/
+@media(min-width:361px) and (max-width:640px){
+    .scrolltoDown{
+        top: 240px;
+    }
+    .sliderSection::after{
+        height: 120px;
+    }
+    .serviceHead {
+        font-size: 20px;
+        line-height: 30px;
+        top: 75px;
+    }
+    .serviceDesc {
+        bottom: 80px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .testiMeta::after{
+        left: 80px;
+    }
+
+
+
+}
+
+/*=======================================================================
+// Mobile 600px - 640px
+=========================================================================*/
+@media(min-width:600px) and (max-width:640px){
+    .discoverRes img{
+        width: 100%;
+    }
+    .serviceHead {
+        font-size: 40px;
+        line-height: 50px;
+        top: 75px;
+    }
+    .serviceDesc {
+        bottom: 95px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .folio_hover h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
