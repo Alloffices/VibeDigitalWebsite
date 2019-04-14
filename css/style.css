@@ -646,7 +646,7 @@
     visibility: hidden !important;
 }
 .sliderSection::after {
-    background: #f23030;
+    background: rgba(0, 0, 0, .5);
     bottom: -100px;
     content: "";
     height: 200px;
@@ -1905,7 +1905,7 @@
     background: url(../images/bg/8.jpg) no-repeat scroll center center/cover;
 }
 .teamSection{
-    padding: 105px 0 20px;
+    padding: 105px 0 60px;
 }
 .singleTeam{
     margin-bottom: 30px;
@@ -2051,7 +2051,7 @@
     color: #f23030;
 }
 #footer{
-    padding-bottom: 133px;
+    padding-bottom: 75px;
 }
 
 
