@@ -1094,7 +1094,7 @@
 /**===================== Testimonial Section =========================**/
 .testimonial_section{
     background: url(https://images.unsplash.com/photo-1436262513933-a0b06755c784?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80) no-repeat center center / cover;
-    padding: 60px 0 47px;
+    padding: 100px 0 150px;
 }
 .testimonialSlider{
     padding-left: 173px;
