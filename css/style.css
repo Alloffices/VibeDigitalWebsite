@@ -921,7 +921,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(242, 48, 48, .2);
+    background: rgba(204, 204, 204, 0.2);
     transition: all ease 500ms;
     -moz-transition: all ease 500ms;
     -webkit-transition: all ease 500ms;
@@ -1077,7 +1077,7 @@
 
 /**===================== Client Section =========================**/
 .client_section{
-    padding-top: 141px;
+    padding-top: 20px;
     padding-bottom: 95px;
 }
 #client_slider .singleClient{
@@ -1094,7 +1094,7 @@
 /**===================== Testimonial Section =========================**/
 .testimonial_section{
     background: url(../images/bg/2.jpg) no-repeat center center / cover;
-    padding: 160px 0 147px;
+    padding: 60px 0 47px;
 }
 .testimonialSlider{
     padding-left: 173px;
@@ -1187,7 +1187,7 @@
 
 /**===================== Footer =========================**/
 .footer{
-    padding-top: 147px;
+    padding-top: 47px;
     position: relative;
     padding-bottom: 132px;
 }
@@ -1905,7 +1905,7 @@
     background: url(../images/bg/8.jpg) no-repeat scroll center center/cover;
 }
 .teamSection{
-    padding: 175px 0 130px;
+    padding: 105px 0 20px;
 }
 .singleTeam{
     margin-bottom: 30px;
@@ -3000,7 +3000,7 @@
 }
 .client_section2{
     padding-bottom: 95px;
-    padding-top: 112px;
+    padding-top: 20px;
 }
 
 /*==============================================
