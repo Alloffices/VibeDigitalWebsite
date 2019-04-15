@@ -1576,7 +1576,7 @@
 
 /**=====================   Call to Action  =========================**/
 .calltoAction  {
-    background: url(../images/bg/6.jpg) no-repeat scroll center center / cover;
+    background: url(https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80) no-repeat scroll center center / cover;
     margin: 0 0 69px;
 }
 .calltoActionheading {
@@ -1640,7 +1640,7 @@
 // Work page
 ===============================================================**/
 .workPagtitle{
-    background: url(../images/bg/7.jpg) no-repeat scroll center center/cover;
+    background: url(https://images.unsplash.com/photo-1529119513315-c7c361862fc7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat scroll center center/cover;
 }
 .worksection{
     padding: 171px 0 130px;
@@ -3017,7 +3017,7 @@
 }
 .contacInfoSection{
     position: relative;
-    padding: 80px 0 174px;
+    padding: 20px 0 174px;
     overflow: hidden;
 }
 .contactHeader{
@@ -3221,7 +3221,7 @@
 / Work Details Page 
 ===============================================*/
 .workDetailsPagtitle{
-    background: url(../images/bg/11.jpg) no-repeat center center / cover;
+    background: url(https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80) no-repeat center center / cover;
 }
 .workDetailsSections{
     position: relative;
@@ -3229,7 +3229,7 @@
 }
 .workMeta{
     position: relative;
-    background: #815dcc;
+    background: #000;
 }
 .wMSingle{
     position: relative;
@@ -3393,7 +3393,7 @@
 }
 .wDSocial{
     position: relative;
-    padding: 0 0 140px;
+    padding:140px 0  140px;
 }
 .wDSocialLinks{
     text-align: center;
