@@ -68,7 +68,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: #f23030;
+    color: #000;
 }
 a:focus{
     outline: 0;
@@ -96,7 +96,7 @@ button{
     border-radius: 25px;
 }
 .sy_btn i{
-    color: #f23030;
+    color: #fff;
     display: inline-block;
     position: relative;
     top: 3px;
@@ -109,7 +109,7 @@ button{
     -o-transition: all ease 500ms;
 }
 .sy_btn:hover{
-    background: #f23030;
+    background: #000;
     color: #FFF;
 }
 .sy_btn:hover i{
@@ -279,7 +279,7 @@ blockquote p{
     font-style: italic;
 }
 .bigTitle span{
-    color: #f23434;
+    color: #000;
 }
 .bg_Alabaster {
     background: #fbfbfb;
