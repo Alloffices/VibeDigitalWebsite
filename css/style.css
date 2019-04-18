@@ -1905,7 +1905,7 @@
     background: url(../images/bg/8.jpg) no-repeat scroll center center/cover;
 }
 .teamSection{
-    padding: 105px 0 60px;
+    padding: 105px 0 0 0;
 }
 .singleTeam{
     margin-bottom: 30px;
